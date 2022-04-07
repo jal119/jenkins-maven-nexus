@@ -40,7 +40,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>nexus Snapshots</name>
-      <url>${nexus.host.url}repository/nexus-snapshot/</url>         
+      <url>${nexus.host.url}/repository/nexus-snapshot/</url>         
     </snapshotRepository>
   
   </distributionManagement>
