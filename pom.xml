@@ -25,6 +25,7 @@
   <id>nexus-group-repo</id>
   <name>nexus repo</name>
   <url>http://18.217.171.135:8081/repository/nexus-group/</url>
+ </repository>
 </repositories>
 
   <dependencies>
