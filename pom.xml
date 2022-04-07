@@ -18,7 +18,14 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <nexus.host.url>http://18.217.171.135:8081</nexus.host.url>
- </properties>  
+ </properties> 
+  
+<repositories>
+ <repository>
+  <id>nexus-group-repo</id>
+  <name>nexus repo</name>
+  <url>http://18.217.171.135:8081/repository/nexus-group/</url>
+</repositories>
 
   <dependencies>
     <dependency>
