@@ -34,14 +34,14 @@
    
    <repository>
       <id>nexus</id>                                
-      <name>nexus releases</name>       # http://65.0.133.67:8081/repository/nexus-releases/
+      <name>nexus releases</name>       
       <url>${nexus.host.url}/repository/nexus-releases/</url>
     </repository>
     
    <snapshotRepository>
       <id>nexus</id>
       <name>nexus snapshot repositroy</name>
-      <url>${nexus.host.url}/repository/nexus-snapshot/</url>         # http://65.0.133.67:8081/repository/nexus-snapshot/
+      <url>${nexus.host.url}/repository/nexus-snapshot/</url>        
     </snapshotRepository>
   
   </distributionManagement>
