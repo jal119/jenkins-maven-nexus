@@ -17,7 +17,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <nexus.host.url>http://65.0.133.67:8081</nexus.host.url>
  </properties> 
   
 
@@ -35,14 +34,14 @@
    <repository>
       <id>nexus</id>                                
       <name>nexus releases</name>       
-      <url>${nexus.host.url}/repository/nexus-releases/</url>
+      <url>http://65.0.133.67:8081/repository/nexus-releases/</url>
       <layout>default</layout>
   </repository>
     
    <snapshotRepository>
       <id>nexus</id>
       <name>nexus snapshot repositroy</name>
-      <url>${nexus.host.url}/repository/nexus-snapshot/</url>  
+      <url>http://65.0.133.67:8081/repository/nexus-snapshot/</url>  
       <layout>legacy</layout>
     </snapshotRepository>
   
