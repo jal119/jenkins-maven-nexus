@@ -20,13 +20,6 @@
     <nexus.host.url>http://65.0.133.67:8081</nexus.host.url>
  </properties> 
   
-<repositories>
- <repository>
-  <id>nexus-group-repo</id>
-  <name>nexus repo</name>
-  <url>http://18.217.171.135:8081/repository/nexus-group/</url>
- </repository>
-</repositories>
 
   <dependencies>
     <dependency>
@@ -39,16 +32,16 @@
   
   <distributionManagement>
    
-    <repository>
-      <id>nexus</id>
-      <name>nexus releases</name>                                      
-      <url>${nexus.host.url}/repository/nexus-release/</url>  
+   <repository>
+      <id>nexus</id>                                
+      <name>nexus releases</name>       # http://65.0.133.67:8081/repository/nexus-releases/
+      <url>${nexus.host.url}/repository/nexus-releases/</url>
     </repository>
     
-    <snapshotRepository>
+   <snapshotRepository>
       <id>nexus</id>
-      <name>nexus Snapshots</name>
-      <url>${nexus.host.url}/repository/nexus-snapshot/</url>         
+      <name>nexus snapshot repositroy</name>
+      <url>${nexus.host.url}/repository/nexus-snapshot/</url>         # http://65.0.133.67:8081/repository/nexus-snapshot/
     </snapshotRepository>
   
   </distributionManagement>
