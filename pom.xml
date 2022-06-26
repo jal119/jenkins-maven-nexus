@@ -36,12 +36,14 @@
       <id>nexus</id>                                
       <name>nexus releases</name>       
       <url>${nexus.host.url}/repository/nexus-releases/</url>
-    </repository>
+      <layout>default</layout>
+  </repository>
     
    <snapshotRepository>
       <id>nexus</id>
       <name>nexus snapshot repositroy</name>
-      <url>${nexus.host.url}/repository/nexus-snapshot/</url>        
+      <url>${nexus.host.url}/repository/nexus-snapshot/</url>  
+      <layout>legacy</layout>
     </snapshotRepository>
   
   </distributionManagement>
